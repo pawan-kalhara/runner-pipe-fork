@@ -35,6 +35,9 @@ jobs:
           os: ubuntu-latest
           devScript: ./dev.sh
 
+
+#test
+
         - runtime: osx-x64
           os: macOS-latest
           devScript: ./dev.sh
