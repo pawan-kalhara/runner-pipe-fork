@@ -14,7 +14,7 @@ jobs:
         id: node-versions
         run: |
           # Get latest Node.js releases from official GitHub releases
-          echo "Fetching latest Node.js releases..."
+          echo "Fetching latest Node.js releases...,"
 
           # Get latest v20.x release
           LATEST_NODE20=$(curl -s https://api.github.com/repos/nodejs/node/releases | \
